@@ -1,0 +1,8 @@
+[Unit]
+Description=Threat Intell Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /hdd/ai_project/project_b/real_time.py 
+[Install]
+WantedBy=A-coder
